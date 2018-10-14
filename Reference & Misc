@@ -1,0 +1,12 @@
+This is a collection of code and other bits that I will need for the app:
+
+From Spotify developer site: (https://developer.spotify.com/documentation/web-api/reference/tracks/)
+Endpoints for retrieving information about one or more tracks from the Spotify catalog.
+
+Base URL: https://api.spotify.com/v1
+METHOD 	ENDPOINT 	USAGE 	RETURNS
+GET 	/v1/audio-analysis/{id} 	Get Audio Analysis for a Track 	audio analysis object
+GET 	/v1/audio-features/{id} 	Get Audio Features for a Track 	audio features
+GET 	/v1/audio-features 	Get Audio Features for Several Tracks 	audio features
+GET 	/v1/tracks 	Get Several Tracks 	tracks
+GET 	/v1/tracks/{id} 	Get a Track 	track
