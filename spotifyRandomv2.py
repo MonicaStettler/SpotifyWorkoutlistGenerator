@@ -3,8 +3,8 @@ or not on a given exiting Spotify genre
 """
 
 #Project is  under construction. Currently can extract the song name and artist of one 
-#random song from the Spotify database and save to csv file. Working on extraction of features to build dataset.
-#API connection code credited to
+#random song at a time from the Spotify database and save to csv file. Starter code is from ZipBomb.
+#Currently working on extraction of features to build dataset of random songs with song features.
 
 import sys
 import json
