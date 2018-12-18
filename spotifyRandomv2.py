@@ -1,6 +1,5 @@
 """Module that makes use of the Spotify Web API to retrieve pseudo-random songs based
-or not on a given exiting Spotify genre (look at genres.json, filled with info
-scrapped from http://everynoise.com/everynoise1d.cgi?scope=all&vector=popularity)
+or not on a given exiting Spotify genre 
 """
 
 #Project is  under construction. Currently can extract the song name and artist of one 
