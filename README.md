@@ -6,4 +6,4 @@ Creating predictive models for song selection based on song attributes. Need to 
 3) MMX
 4) Mobility/cooldown
 
-Tools and techniques: python, Spotify, decision tree, KNN and logistic regression.
+Tools: python, Spotify, decision tree, KNN and logistic regression.
