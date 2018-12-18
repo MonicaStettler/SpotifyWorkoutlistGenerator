@@ -3,6 +3,10 @@ or not on a given exiting Spotify genre (look at genres.json, filled with info
 scrapped from http://everynoise.com/everynoise1d.cgi?scope=all&vector=popularity)
 """
 
+#Project is  under construction. Currently can extract the song name and artist of one 
+#random song from the Spotify database and save to csv file. Working on extraction of features to build dataset.
+#API connection code credited to
+
 import sys
 import json
 import re
@@ -89,8 +93,6 @@ def request_valid_song(access_token, genre=None):
     return "{} - {}".format(artist, song), artist, song, id, randomSongs
 
 def getFeatures(id, access_token):
-    #helpful website: https://realpython.com/python-json/ AND http://docs.python-requests.org/en/master/ AND https://en.wikipedia.org/wiki/Query_string
-    #featureRequests = requests.get('https://api.spotify.com/v1/audio-features/{}'.format(id), auth=('access_token'))
 
 # =============================================================================
 #     authorization_header = {
